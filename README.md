@@ -122,6 +122,26 @@ bedtools intersect -a DeepZ.bed -b H3K9me3_HCT116.merge.hg19.bed > H3K9me3_HCT11
 
 ![intersect_annopie](./img/chip_seeker.H3K9me3_HCT116.intersect_with_DeepZ.plotAnnoPie.png)
 
+### 3.3. Визуализация в геномном браузере.
+
+Были добавлены следующие треки:
+- Эксперимент ENCFF158YTR (черный)
+- Эксперимент ENCFF832IOO (черный)
+- Их объединение (ChIP_merge, синий)
+- Вторичная структура ДНК (DeepZ, зеленый)
+- Пересечение участков со вторичной структурой (intersect_with_DeepZ, красный)
+
+Ссылка на сессию в Genome Browser: https://genome.ucsc.edu/s/ShamerD/ShamerD_H3K9me3_ZDNA
+
+Ниже приведены примеры пересечений:
+1. Рядом с геном ACTL8, координаты chr1:18,081,703-18,081,908
+
+![intersection_screen_positive](./img/intersection_screenshot_1.png)
+
+2. В межгенном пространстве, координаты chr1:2,787,920-2,788,082
+
+![intersection_screen_negative](./img/intersection_screenshot_2.png)
+
 ---
 
 За шаблон отчета благодарность [isaf27](https://github.com/isaf27).
