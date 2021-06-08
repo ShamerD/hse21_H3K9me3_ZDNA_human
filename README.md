@@ -60,8 +60,22 @@ liftOver H3K9me3_HCT116.ENCFF832IOO.hg38.bed hg38ToHg19.over.chain.gz H3K9me3_HC
 
 ![ENCFF158YTR_filtered](./img/filter_peaks.H3K9me3_HCT116.ENCFF158YTR.hg19.filtered.hist.png)
 
-#### 1.2.2. Эксперимент ENCFF811QUJ
+#### 1.2.2. Эксперимент ENCFF832IOO
 
 После фильтрации осталось 113276 (99.27%) участков.
 
 ![ENCFF832IOO_filtered](./img/filter_peaks.H3K9me3_HCT116.ENCFF832IOO.hg19.filtered.hist.png)
+
+### 1.3. Расположение участков
+
+Смотрим, где располагаются пики гистоновой метки относительно аннотированных генов. Ниже приведены pie-chart, соответствующие экспериментам.
+
+Скрипт приведен в [chip_seeker.R](./src/chip_seeker.R), в нем используется библиотека `ChIPseeker`.
+
+#### 1.3.1. Эксперимент ENCFF158YTR
+
+![ENCFF158YTR_annopie](./img/chip_seeker.H3K9me3_HCT116.ENCFF158YTR.hg19.filtered.plotAnnoPie.png)
+
+#### 1.3.2. Эксперимент ENCFF832IOO
+
+![ENCFF811QUJ_annopie](./img/chip_seeker.H3K9me3_HCT116.ENCFF832IOO.hg19.filtered.plotAnnoPie.png)
