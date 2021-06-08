@@ -16,7 +16,7 @@ library(org.Hs.eg.db)
 ###
 
 
-peaks <- toGRanges(paste0(DATA_DIR, 'H3K4me3_A549.intersect_with_DeepZ.bed'), format="BED")
+peaks <- toGRanges(paste0(DATA_DIR, 'H3K9me3_HCT116.intersect_with_DeepZ.bed'), format="BED")
 peaks[1:2]
 
 annoData <- toGRanges(TxDb.Hsapiens.UCSC.hg19.knownGene)
