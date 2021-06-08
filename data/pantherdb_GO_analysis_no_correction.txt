@@ -1,0 +1,92 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20210224)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.4735677 Released 2021-05-01
+Analyzed List:	H3K9me3_HCT116.intersect_with_DeepZ.genes_uniq.txt (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	NONE
+GO biological process complete	Homo sapiens - REFLIST (20595)	H3K9me3_HCT116.intersect_with_DeepZ.genes_uniq.txt (21)	H3K9me3_HCT116.intersect_with_DeepZ.genes_uniq.txt (expected)	H3K9me3_HCT116.intersect_with_DeepZ.genes_uniq.txt (over/under)	H3K9me3_HCT116.intersect_with_DeepZ.genes_uniq.txt (fold Enrichment)	H3K9me3_HCT116.intersect_with_DeepZ.genes_uniq.txt (raw P-value)
+protein localization to heterochromatin (GO:0097355)	2	1	.00	+	 > 100	3.05E-03
+fasciculation of motor neuron axon (GO:0097156)	2	1	.00	+	 > 100	3.05E-03
+detection of chemical stimulus involved in sensory perception of pain (GO:0050968)	3	1	.00	+	 > 100	4.07E-03
+mesodermal to mesenchymal transition involved in gastrulation (GO:0060809)	3	1	.00	+	 > 100	4.07E-03
+fasciculation of sensory neuron axon (GO:0097155)	3	1	.00	+	 > 100	4.07E-03
+positive regulation of secondary heart field cardioblast proliferation (GO:0072513)	3	1	.00	+	 > 100	4.07E-03
+regulation of cytokine activity (GO:0060300)	4	1	.00	+	 > 100	5.08E-03
+ubiquitin-dependent protein catabolic process via the C-end degron rule pathway (GO:0140627)	4	1	.00	+	 > 100	5.08E-03
+embryonic body morphogenesis (GO:0010172)	6	1	.01	+	 > 100	7.11E-03
+semicircular canal morphogenesis (GO:0048752)	6	1	.01	+	 > 100	7.11E-03
+histone dephosphorylation (GO:0016576)	6	1	.01	+	 > 100	7.11E-03
+thermoception (GO:0050955)	7	1	.01	+	 > 100	8.12E-03
+outer ear morphogenesis (GO:0042473)	7	1	.01	+	 > 100	8.12E-03
+mesodermal cell fate specification (GO:0007501)	7	1	.01	+	 > 100	8.12E-03
+sequestering of BMP from receptor via BMP binding (GO:0038098)	8	1	.01	+	 > 100	9.13E-03
+semicircular canal development (GO:0060872)	8	1	.01	+	 > 100	9.13E-03
+otic vesicle morphogenesis (GO:0071600)	9	1	.01	+	 > 100	1.01E-02
+regulation of secondary heart field cardioblast proliferation (GO:0003266)	9	1	.01	+	 > 100	1.01E-02
+regulation of cardioblast proliferation (GO:0003264)	10	1	.01	+	98.07	1.12E-02
+positive regulation of DNA methylation-dependent heterochromatin assembly (GO:0090309)	11	1	.01	+	89.16	1.22E-02
+mesodermal cell fate commitment (GO:0001710)	13	1	.01	+	75.44	1.42E-02
+positive regulation of heterochromatin organization (GO:0120263)	13	1	.01	+	75.44	1.42E-02
+positive regulation of heterochromatin assembly (GO:0031453)	13	1	.01	+	75.44	1.42E-02
+positive regulation of chromatin assembly or disassembly (GO:0045799)	14	1	.01	+	70.05	1.52E-02
+positive regulation of cellular senescence (GO:2000774)	14	1	.01	+	70.05	1.52E-02
+otic vesicle development (GO:0071599)	14	1	.01	+	70.05	1.52E-02
+detection of mechanical stimulus involved in sensory perception of pain (GO:0050966)	14	1	.01	+	70.05	1.52E-02
+sequestering of extracellular ligand from receptor (GO:0035581)	14	1	.01	+	70.05	1.52E-02
+regulation of DNA methylation-dependent heterochromatin assembly (GO:0090308)	15	1	.02	+	65.38	1.62E-02
+positive regulation of cell aging (GO:0090343)	16	1	.02	+	61.29	1.72E-02
+extracellular negative regulation of signal transduction (GO:1900116)	16	1	.02	+	61.29	1.72E-02
+extracellular regulation of signal transduction (GO:1900115)	16	1	.02	+	61.29	1.72E-02
+negative regulation of single stranded viral RNA replication via double stranded DNA intermediate (GO:0045869)	16	1	.02	+	61.29	1.72E-02
+tripartite regional subdivision (GO:0007351)	17	1	.02	+	57.69	1.82E-02
+anterior/posterior axis specification, embryo (GO:0008595)	17	1	.02	+	57.69	1.82E-02
+regulation of cell proliferation involved in heart morphogenesis (GO:2000136)	18	1	.02	+	54.48	1.92E-02
+regulation of single stranded viral RNA replication via double stranded DNA intermediate (GO:0045091)	19	1	.02	+	51.62	2.02E-02
+regulation of heterochromatin organization (GO:0120261)	19	1	.02	+	51.62	2.02E-02
+regulation of heterochromatin assembly (GO:0031445)	19	1	.02	+	51.62	2.02E-02
+middle ear morphogenesis (GO:0042474)	19	1	.02	+	51.62	2.02E-02
+axonal fasciculation (GO:0007413)	21	1	.02	+	46.70	2.22E-02
+blastoderm segmentation (GO:0007350)	21	1	.02	+	46.70	2.22E-02
+neuron projection fasciculation (GO:0106030)	21	1	.02	+	46.70	2.22E-02
+regulation of receptor binding (GO:1900120)	21	1	.02	+	46.70	2.22E-02
+regulation of chromatin assembly (GO:0010847)	21	1	.02	+	46.70	2.22E-02
+protein localization to chromatin (GO:0071168)	24	1	.02	+	40.86	2.52E-02
+cochlea morphogenesis (GO:0090103)	25	1	.03	+	39.23	2.62E-02
+pharyngeal system development (GO:0060037)	26	1	.03	+	37.72	2.72E-02
+regulation of chromatin assembly or disassembly (GO:0001672)	26	1	.03	+	37.72	2.72E-02
+mesodermal cell differentiation (GO:0048333)	26	1	.03	+	37.72	2.72E-02
+cell fate commitment involved in formation of primary germ layer (GO:0060795)	26	1	.03	+	37.72	2.72E-02
+detection of stimulus involved in sensory perception of pain (GO:0062149)	27	1	.03	+	36.32	2.82E-02
+neuron fate specification (GO:0048665)	28	1	.03	+	35.03	2.91E-02
+sensory perception of temperature stimulus (GO:0050951)	28	1	.03	+	35.03	2.91E-02
+aorta morphogenesis (GO:0035909)	29	1	.03	+	33.82	3.01E-02
+response to pain (GO:0048265)	29	1	.03	+	33.82	3.01E-02
+intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator (GO:0042771)	30	1	.03	+	32.69	3.11E-02
+negative regulation of extrinsic apoptotic signaling pathway in absence of ligand (GO:2001240)	35	1	.04	+	28.02	3.61E-02
+negative regulation of signal transduction in absence of ligand (GO:1901099)	35	1	.04	+	28.02	3.61E-02
+detection of mechanical stimulus involved in sensory perception (GO:0050974)	36	1	.04	+	27.24	3.70E-02
+embryonic axis specification (GO:0000578)	39	1	.04	+	25.15	4.00E-02
+negative regulation of gene expression, epigenetic (GO:0045814)	79	2	.08	+	24.83	3.05E-03
+body morphogenesis (GO:0010171)	43	1	.04	+	22.81	4.39E-02
+branching involved in ureteric bud morphogenesis (GO:0001658)	43	1	.04	+	22.81	4.39E-02
+potassium ion import across plasma membrane (GO:1990573)	43	1	.04	+	22.81	4.39E-02
+regulation of extrinsic apoptotic signaling pathway in absence of ligand (GO:2001239)	44	1	.04	+	22.29	4.49E-02
+regulation of cellular senescence (GO:2000772)	44	1	.04	+	22.29	4.49E-02
+release of sequestered calcium ion into cytosol (GO:0051209)	45	1	.05	+	21.79	4.58E-02
+negative regulation of sequestering of calcium ion (GO:0051283)	46	1	.05	+	21.32	4.68E-02
+negative regulation of endocytosis (GO:0045806)	47	1	.05	+	20.87	4.78E-02
+protein peptidyl-prolyl isomerization (GO:0000413)	48	1	.05	+	20.43	4.88E-02
+response to cold (GO:0009409)	48	1	.05	+	20.43	4.88E-02
+neuron recognition (GO:0008038)	48	1	.05	+	20.43	4.88E-02
+gastrulation (GO:0007369)	157	2	.16	+	12.49	1.13E-02
+regulation of gene expression, epigenetic (GO:0040029)	173	2	.18	+	11.34	1.35E-02
+sensory perception of mechanical stimulus (GO:0050954)	177	2	.18	+	11.08	1.41E-02
+apoptotic signaling pathway (GO:0097190)	281	2	.29	+	6.98	3.32E-02
+embryonic morphogenesis (GO:0048598)	570	3	.58	+	5.16	1.96E-02
+protein modification by small protein conjugation (GO:0032446)	822	3	.84	+	3.58	4.97E-02
+regulation of transcription by RNA polymerase II (GO:0006357)	2595	6	2.65	+	2.27	4.06E-02
