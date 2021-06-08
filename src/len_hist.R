@@ -20,4 +20,5 @@ ggplot(bed_df) +
   geom_histogram() +
   ggtitle(NAME, subtitle = sprintf('Number of peaks = %s', nrow(bed_df))) +
   theme_bw()
-ggsave(paste0('len_hist.', NAME, '.pdf'), path = OUT_DIR)
+#ggsave(paste0('len_hist.', NAME, '.pdf'), path = OUT_DIR)
+ggsave(paste0('len_hist.', NAME, '.png'), path = OUT_DIR)
