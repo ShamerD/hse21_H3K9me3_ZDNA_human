@@ -79,3 +79,13 @@ liftOver H3K9me3_HCT116.ENCFF832IOO.hg38.bed hg38ToHg19.over.chain.gz H3K9me3_HC
 #### 1.3.2. Эксперимент ENCFF832IOO
 
 ![ENCFF811QUJ_annopie](./img/chip_seeker.H3K9me3_HCT116.ENCFF832IOO.hg19.filtered.plotAnnoPie.png)
+
+### 1.4. Объединение участков
+
+Два отфильтрованных набора участков были объединены с помощью утилиты `bedtools merge` командой:
+
+```bash
+cat *.filtered.bed | sort -k1,1 -k2,2n | bedtools merge > H3K9me3_HCT116.merge.hg19.bed
+```
+
+Эти наборы затем были провизуализированы в Genome Browser для проверки корректности `bedtools merge`. В целях экономии пространства скриншоты будут прикреплены ниже, после выполнения дальнейших этапов (уже с новой информацией).
