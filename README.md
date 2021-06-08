@@ -102,6 +102,26 @@ cat *.filtered.bed | sort -k1,1 -k2,2n | bedtools merge > H3K9me3_HCT116.merge.h
 
 ![DeepZ_annopie](./img/chip_seeker.DeepZ.plotAnnoPie.png)
 
+## 3. Анализ пересечений гистоновой метки и вторичной структуры ДНК
+
+Рассматриваются пики гистоновой метки на вторичных структурах, т.е. рассматривается пересечение объединенных участков и участков вторичной структуры. Пересечения были получены с помощью утилиты `bedtools intersect`:
+
+```bash
+bedtools intersect -a DeepZ.bed -b H3K9me3_HCT116.merge.hg19.bed > H3K9me3_HCT116.intersect_with_DeepZ.bed
+```
+
+Далее с ними проделывается аналогичная работа, опять же теми же скриптами.
+
+### 3.1. Распределение длин участков.
+
+В результате: 381 участка.
+
+![intersect](./img/len_hist.H3K9me3_HCT116.intersect_with_DeepZ.png)
+
+### 3.2. Расположение участков относительно аннотированных генов.
+
+![intersect_annopie](./img/chip_seeker.H3K9me3_HCT116.intersect_with_DeepZ.plotAnnoPie.png)
+
 ---
 
 За шаблон отчета благодарность [isaf27](https://github.com/isaf27).
