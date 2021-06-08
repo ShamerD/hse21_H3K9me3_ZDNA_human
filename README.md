@@ -142,6 +142,26 @@ bedtools intersect -a DeepZ.bed -b H3K9me3_HCT116.merge.hg19.bed > H3K9me3_HCT11
 
 ![intersection_screen_negative](./img/intersection_screenshot_2.png)
 
+### 3.4. Ассоциация с генами
+
+Ассоциируем полученные пересечения (пиков с вторичной структуры) с ближайшими генами. Скрипт приведен в [ChIPpeakAnno.R](./scr/ChIPpeakAnno.R), в нем используется библиотека `ChIPpeakAnno`.
+
+В результате получено, что можно ассоциировать 45 пиков, а уникальных генов - 34. С полным списком можно ознакомиться в файлах:
+- [data/H3K9me3_HCT116.intersect_with_DeepZ.genes.txt](./data/H3K9me3_HCT116.intersect_with_DeepZ.genes.txt) (пики)
+- [data/H3K9me3_HCT116.intersect_with_DeepZ.genes_uniq.txt](./data/H3K9me3_HCT116.intersect_with_DeepZ.genes_uniq.txt) (уникальные гены).
+
+Также был проведен GO-анализ для набора уникальных генов при помощи сайта http://pantherdb.org/. Однако статистически значимых результатов найдено не было (также стоит заметить, что 13 генов не нашлись в базе сайта):
+
+![analysis_correction](./img/pantherdb_GO_analysis.png)
+
+Тем не менее, если не проводить коррекцию (False Discovery Rate), а ориентироваться только на p-value, то получится такой список:
+
+![analysis_no_correction](./img/pantherdb_GO_analysis_no_correction.png)
+
+Cо текстовыми результатами экспериментов можно ознакомиться в файлах:
+- с FDR коррекцией - [data/pantherdb_GO_analysis.txt](./data/pantherdb_GO_analysis.txt)
+- без коррекции - [data/pantherdb_GO_analysis_no_correction.txt](./data/pantherdb_GO_analysis_no_correction.txt)
+
 ---
 
 За шаблон отчета благодарность [isaf27](https://github.com/isaf27).
