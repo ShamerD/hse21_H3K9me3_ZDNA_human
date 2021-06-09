@@ -29,18 +29,18 @@ liftOver H3K9me3_HCT116.ENCFF832IOO.hg38.bed hg38ToHg19.over.chain.gz H3K9me3_HC
 
 #### 1.1.1. Эксперимент ENCFF158YTR
 
-- версия генома hg38
+- версия генома hg38 (63094 участка)
 ![ENCFF158YTR_hg38](./img/len_hist.H3K9me3_HCT116.ENCFF158YTR.hg38.png)
 
-- после конвертации в версию генома hg19
+- после конвертации в версию генома hg19 (62715 участков)
 ![ENCFF158YTR_hg19](./img/len_hist.H3K9me3_HCT116.ENCFF158YTR.hg19.png)
 
 #### 1.1.2. Эксперимент ENCFF832IOO
 
-- версия генома hg38
+- версия генома hg38 (114113 участков)
 ![ENCFF832IOO_hg38](./img/len_hist.H3K9me3_HCT116.ENCFF832IOO.hg38.png)
 
-- после конвертации в версию генома hg19
+- после конвертации в версию генома hg19 (113589 участков)
 ![ENCFF832IOO_hg19](./img/len_hist.H3K9me3_HCT116.ENCFF832IOO.hg19.png)
 
 #### 1.1.3. Комментарии
@@ -114,7 +114,7 @@ bedtools intersect -a DeepZ.bed -b H3K9me3_HCT116.merge.hg19.bed > H3K9me3_HCT11
 
 ### 3.1. Распределение длин участков.
 
-В результате: 381 участка.
+В результате: 384 участка.
 
 ![intersect](./img/len_hist.H3K9me3_HCT116.intersect_with_DeepZ.png)
 
